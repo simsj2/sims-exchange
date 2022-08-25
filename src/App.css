@@ -1,27 +1,25 @@
 .App {
   text-align: center;
+  background-image: url('./mountains.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 27vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 15px;
 }
 
 .App-link {
@@ -35,4 +33,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Entrance {
+  padding: 15px;
+}
+
+button.btn {
+  margin-top: 5px;
+  border-color: #516266;
+  color: white;
+}
+
+.FormLogo {
+  display: inline-block;
+  height: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Exchange {
+  margin-top: 20px;
+}
+
+.BuyFormButton {
+  margin-bottom: 10px;
+  margin-right: 35px;
+}
+
+.SellFormButton {
+  margin-bottom: 10px;
+}
+
+.FormCard {
+  margin-top: 10px;
+}
+
+p {
+  align-items: center;
+}
+
+p.info {
+  margin-top: 20px;
+}
+
+.Wallet {
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+}
+
+.Space {
+  margin-right: 40px;
 }
